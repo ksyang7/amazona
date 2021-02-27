@@ -101,3 +101,6 @@ img.mediun{
   color: #f0c040;
   margin: 0rem;
 }
+.rating span:last-child {
+  color:#404040
+}
