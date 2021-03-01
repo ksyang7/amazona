@@ -1,4 +1,5 @@
 # Amazona Ecommerce Website
+
 8. Build Product Screen
    - Install react-router-dom
    - Use BrowserRouter and Route for Home Screen
@@ -57,4 +58,9 @@
    - create product details constants, actions and reducers
    - add reducer to store.js
    - use action in ProductScreen.js
-   - add /api/product/:id to backend api                          
+   - add /api/product/:id to backend api   
+
+14. Handle Add To Cart Button
+   - Handle Add To Cart in ProdctScreen.js
+   - create CartScreen.js
+                         
