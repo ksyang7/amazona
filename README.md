@@ -1,4 +1,13 @@
-# amazona
+# Amazona Ecommerce Website
+8. Build Product Screen
+   - Install react-router-dom
+   - Use BrowserRouter and Route for Home Screen
+   - Create HomeScreen.js
+   - Add product list code there
+   - Create ProductScreen.js
+   - Add new Route from product details to App.js
+   - Create 3 column3 for product image, info and action
+
 9. Create Node.JS Server
    - run npm init in root folder
    - Update package.json set type: module
@@ -42,4 +51,10 @@
    - shopName = useSelector(state => state.products)
    - const dispatch = useDispatch()
    - useEffect(() => dispatch({type: LOAD_PRODUCTS, payload: data}))
-   - Add store to index.js                               
+   - Add store to index.js     
+
+13. Add Redux to Product Screen
+   - create product details constants, actions and reducers
+   - add reducer to store.js
+   - use action in ProductScreen.js
+   - add /api/product/:id to backend api                          
