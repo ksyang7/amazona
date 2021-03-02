@@ -63,4 +63,10 @@
 14. Handle Add To Cart Button
    - Handle Add To Cart in ProdctScreen.js
    - create CartScreen.js
+
+15. Implement Add to Cart Action
+   - create addToCart constants, actions and reducers
+   - add reducer to stroe.js
+   - use action in CartScreen.js
+   - render cartItems.length
                          
