@@ -76,4 +76,10 @@
    - show item image, name, qty and price
    - Porceed to Checkout button
    - Implement remove from cart action
+
+17. Implement Remove From Cart Action
+   - create removeFormCart constants, actions and reducers
+   - add reducer to store.js
+   - use action in CartScreen.js
+   
                          
