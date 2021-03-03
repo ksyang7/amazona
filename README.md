@@ -69,4 +69,11 @@
    - add reducer to stroe.js
    - use action in CartScreen.js
    - render cartItems.length
+
+16. Build Cart Screen
+   - create 2 columns for cart items and cart action
+   - cartItems.length === 0 ? cart is empty
+   - show item image, name, qty and price
+   - Porceed to Checkout button
+   - Implement remove from cart action
                          
