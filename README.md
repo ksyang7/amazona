@@ -108,5 +108,12 @@
    - install json web token
    - return token and data
    - test it using postman
+
+21. Design SignIn Screen
+   - create SigninScreen
+   - render email and password fields
+   - create signin constants, actions and reducers
+   - Update Header based on user login
    
+    
                          
