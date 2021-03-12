@@ -2,7 +2,8 @@ import axios from "axios";
 import { 
         USER_SIGNIN_FAIL, 
         USER_SIGNIN_REQUEST, 
-        USER_SIGNIN_SUCCESS, 
+        USER_SIGNIN_SUCCESS,
+        USER_SIGNOUT, 
         } from "../constants/userConstants"
 
 export const signin = (email, password) => async(dispatch) => {
@@ -20,4 +21,13 @@ export const signin = (email, password) => async(dispatch) => {
             : error.message, 
         });
     }
+}
+
+export const signout = () =>  (dispatch) => {
+    localStorage.removeItem('userInfo');
+    
+    console.log("cartItems : ", localStorage.getItem('cartItems'));
+
+    localStorage.removeItem('cartItems');
+    dispatch({ type: USER_SIGNOUT });
 }
