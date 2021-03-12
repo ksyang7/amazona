@@ -114,6 +114,12 @@
    - render email and password fields
    - create signin constants, actions and reducers
    - Update Header based on user login
+
+22. Implement SignIn Action
+   - create signin constants, actions and reducers
+   - add reducer to store.js
+   - use action in SigninScreen.js
+
    
-    
+
                          
