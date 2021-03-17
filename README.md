@@ -120,6 +120,36 @@
    - add reducer to store.js
    - use action in SigninScreen.js
 
+23. Create Register Screen and Backend API
+   - create API for /api/users/register
+   - insert new user to database
+   - return user info and token
+   - create RegisterScreen
+   - Add fields
+   - Style fields
+   - Add screen to App.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    
 
                          
