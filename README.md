@@ -129,6 +129,10 @@
    - Style fields
    - Add screen to App.js
 
+24. Create Shipping Screen
+   - create CheckoutSteps.js component
+   - create shipping fields
+   - implement shipping constant, actions and reducers
 
 
 
