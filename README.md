@@ -138,6 +138,10 @@
    - create payment fields
    - implement shipping constant, actions and reducers
 
+26. Design Place Order Screen
+   - design order summary fields
+   - design order action
+
 
 
 
