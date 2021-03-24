@@ -142,7 +142,15 @@
    - design order summary fields
    - design order action
 
+27. Create Place Order API
+   - createOrder api
+   - create orderModel
+   - create orderRouter
+   - create post order route
 
+28. Implement PlaceOrder Action
+   - handle place order button click
+   - create place order constants, action and reducer
 
 
 
