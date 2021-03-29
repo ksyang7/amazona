@@ -9,7 +9,7 @@ import { ORDER_CREATE_RESET } from '../constants/orderConstants';
 
 export default function PlaceOrderScreen(props) {
     const cart = useSelector(state => state.cart);
-    if (cart.paymentMethod) {
+    if (!cart.paymentMethod) {
         props.history.push('/payment');
     }
     const orderCreate = useSelector(state => state.orderCreate);
@@ -109,7 +109,7 @@ export default function PlaceOrderScreen(props) {
                                     <div>
                                         <strong>Order Total</strong>
                                     </div>
-                                    <div>${cart.totalPrice}</div>
+                                    <div>${cart.totalPrice.toFixed(2)}</div>
                                 </div>
                             </li>
                             <li>
