@@ -14,14 +14,14 @@ export default function PaymentMethodScreen(props) {
     const submitHandler = (e) => {
         e.preventDefault();
         dispatch(savePaymentMethod(paymentMethod));
-        props.history.push('/placeorder')
+        props.history.push('/placeorder');
     };
     return (
         <div>
             <CheckoutSteps step1 step2 step3></CheckoutSteps>
             <form className="form" onSubmit={submitHandler} >
                 <div>
-                    <h1>Payment</h1>
+                    <h1>Payment Method</h1>
                 </div>
                 <div>
                     <div>
@@ -33,7 +33,7 @@ export default function PaymentMethodScreen(props) {
                 <div>
                     <div>
                         <input type="radio" id="stripe" value="Stripe" name="paymentMethod"
-                            required checked onChange={(e) => setPaymentMethod(e.target.value)}></input> 
+                            required onChange={(e) => setPaymentMethod(e.target.value)}></input> 
                         <label htmlFor="stripe" >Stripe</label>
                     </div>
                 </div>

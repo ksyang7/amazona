@@ -30,7 +30,7 @@ export default function CartScreen(props) {
                 <h1>Shopping Cart</h1>
                 {cartItems.length === 0 ?(
                     <MessageBox>
-                        Cart is empty. <Link to="/">Go Shopping</Link>
+                        Cart is empty. <Link to="/"> Go Shopping</Link>
                     </MessageBox>
                 ) : (
                     <ul>
@@ -86,7 +86,7 @@ export default function CartScreen(props) {
                             </h2>
                         </li>
                         <li>
-                            <button type="button" onclick={checkoutHandler} className="primary block" disabled={cartItems.length === 0}>
+                            <button type="button" onClick={checkoutHandler} className="primary block" disabled={cartItems.length === 0}>
                                 Proceed to Checkout
                             </button>
                         </li>

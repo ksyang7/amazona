@@ -152,6 +152,15 @@
    - handle place order button click
    - create place order constants, action and reducer
 
+29. Create Order Screen
+   - build order api for /api/orders/:id
+   - create OrderScreen.js
+   - dispatch order details action in useEffect
+   - load data with useSelector
+   - show data like place order screen
+   - create order details constant, action and reducer
+   
+
 
 
 
