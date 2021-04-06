@@ -159,6 +159,21 @@
    - load data with useSelector
    - show data like place order screen
    - create order details constant, action and reducer
+
+30. Add PayPal Button
+   - get client id from paypal
+   - set it in .env file
+   - create route from /api/paypal/clientId
+   - create getPaypalClientID in api.js
+   - and paypal checkout script in OrderScreen.js
+   - show paypal button
+   
+31. Implement Order Payment
+   - update order after payment
+   - create payOrder in api.js
+   - create route for /:id/pay in orderRouter.js
+   - rerender after pay order
+   
    
 
 
