@@ -1,4 +1,49 @@
 # Amazona Ecommerce Website
+1. 
+   - CSS
+   - HTML
+   - React
+   - Redux
+   - Node.js
+   - mongo DB
+   - jwt
+   - bcypt.js
+
+2. 
+   - Code Editor
+   - Web Browser
+   - VS Code Extension
+
+3. Website Template
+   - Create amazona folder
+   - create template folder
+   - create index.html
+   - add default HTML code
+   - link to style.css
+   - create header, main and footer
+   - style elements
+
+4. Display Products
+   - create products div
+   - add product attributes
+   - add link, image, name and price
+
+5. Create Reace App
+   - npx create-react-app frontend
+   - npm start
+   - Remove unused files
+   - copy index.html content to App.js
+   - copy style.css content to index.css
+   - replace class with className
+
+6. Create GitHub
+
+7. Create Rating and Product Component
+   - create components/Rating.js
+   - create div.rating
+   - style div.rating, span and last span
+   - Create Product component
+   - Use Rating component
 
 8. Build Product Screen
    - Install react-router-dom
@@ -171,10 +216,27 @@
 31. Implement Order Payment
    - update order after payment
    - create payOrder in api.js
-   - create route for /:id/pay in orderRouter.js
+   - create route for /:id/pay in orderRoute
    - rerender after pay order
-   
-   
+
+32. Display Orders History
+   - create customer orders api
+   - create api for getMyOrders
+   - show orders in profile screen
+   - style orders
+
+33. Display User Profile
+   - create user details api
+   - show user information
+
+34. Update User Profile
+   - create user update api
+   - update user info
+
+35. Create Admin View
+   - Create Admin Menu
+   - Create Admin Middleware in Backend
+   - Create Admin Route in Frontend 
 
 
 
